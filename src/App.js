@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-let x = 1;
+let x =0;
 function App() {
   const [i, hhh] = useState(0);
   return (
