@@ -47,3 +47,21 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+.btn button{
+  padding: 5px;
+  margin: 10px;
+  font-size: large;
+  width: 50px;
+  background-color: #04AA6D;
+  color: aliceblue;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+
+}
+.btn button:hover{
+
+  background-color: #04291b;
+ cursor: pointer;
+
+}
