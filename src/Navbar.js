@@ -1,8 +1,21 @@
-const Navbar = () => {
+import React, { Component } from "react";
+
+
+
+
+
+ 
+export default class Navbar extends Component{
+
+ 
+
+  render() {
+   
     return ( 
-        
+     
         <header>
-          <nav className="navbar">
+          
+          <nav className="">
             <ul>
               <li className="active">
                 <a href="/">Home</a>
@@ -16,10 +29,13 @@ const Navbar = () => {
               <li>
                 <a href="/">Service</a>
               </li>
+          
             </ul>
+            
           </nav>
+         
         </header>
      );
 }
- 
-export default Navbar;
+
+}

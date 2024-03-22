@@ -8,7 +8,7 @@ body {
 }
 
 .footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -64,4 +64,7 @@ li a:hover:not(.active) {
   background-color: #04291b;
  cursor: pointer;
 
+}
+ol{
+  display: block;
 }
